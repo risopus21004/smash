@@ -1,0 +1,391 @@
+@font-face {
+    font-family: Parrafos;
+    src: url(Yulong-Regular.ttf);
+}
+
+body{
+    background-color: #202020;
+    font-family: Parrafos;
+    margin: 0%;
+}
+/*barra de navegacion*/
+
+/*barra de navegacion*/
+
+.boton-regresar{
+	cursor: url(img/pointer.png), auto;
+	position: absolute;
+	float: left;
+	object-fit: cover;
+	transition: 0.4s;
+}
+
+.boton-regresar:hover{
+	transform: scale(1);
+}
+
+.boton-regresar img{
+	cursor: url(img/pointer.png), auto;
+	position: absolute;
+	top: 0.5em;
+	left: 0;
+	transition: opacity 0.4s ease-in-out;
+	width: 13.6em;
+}
+
+.boton-regresar img.top:hover{
+	opacity: 0;
+}
+
+.barra{
+	width: 65em;
+}
+
+header{
+	display: flex;
+}
+
+
+/*Y aca termina*/
+
+.cuadro {
+    padding: 30px;
+    background-color: rgb(190, 120, 73);
+    border: black 2.0prgb(165, 108, 70);
+    overflow: auto;
+    padding: 0%;
+}
+
+
+
+.pf-0 {
+    margin: 0.8em;
+    font-size: 30px;
+}
+
+.color {
+    background: linear-gradient(to right, #ff9100, #fffeaa);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.objetos {
+    background-image: url(/img/Bola\ smash3.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 100% 50%;
+    overflow: auto;
+
+}
+
+.pf {
+    margin-right: 1em;
+    margin-left: 10em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;   
+}
+
+.Smash {
+    position: absolute;
+    top: 0.5em;
+	width: 10em;
+}
+
+.logobjeto{
+    position: relative;
+    top: 1em;
+    left: 1.9em;
+    width: 23.5em;
+}
+
+.slider {
+	width: 255px;
+	margin: auto;
+	overflow: hidden;
+    float: left;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+    position: relative;
+    top: 0.5em;
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.pf-1 {
+    margin-right: 15em;
+    margin-left: 2em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;   
+}
+
+.logoframes{
+    position: relative;
+    top: 1em;
+    left: 1.9em;
+    width: 23.5em;
+}
+
+.color1{
+    background: linear-gradient(to right,#F78181, #FE2E2E);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.Smash1{
+    background-image: url(/img/Pikachu.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 1% 50%;
+    overflow: auto;
+
+}
+
+.Imagenframes{
+    position: relative;
+    border: black 2.0px solid;
+    border-radius: 0.5em;
+    top: 4.2em;
+    right: 1.2em;
+    width: 25em;
+    float: right;
+}
+
+.pf-2 {
+    margin-right: 1em;
+    margin-left: 16em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;   
+}
+
+.logomomentum{
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 23.5em;
+}
+
+.color2{
+    background: linear-gradient(to right, #dfa400, #BEF781);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.Smash2{
+    background-image: url(/img/Mr\ game.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 100% 50%;
+    overflow: auto;
+}
+
+.Imagenmomentum{
+    position: relative;
+    border: black 2.0px solid;
+    border-radius: 0.5em;
+    top: 3em;
+    left: 1em;
+    width: 25em;
+    float: left;
+}
+
+.pf-2 {
+    margin-right: 1em;
+    margin-left: 16em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;   
+}
+
+.logomomentum{
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 23.5em;
+}
+
+.color2{
+    background: linear-gradient(to right, #3ADF00, #F7BE81);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.Smash2{
+    background-image: url(/img/Mr\ game.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 100% 50%;
+    overflow: auto;
+}
+
+.Imagenmomentum{
+    position: relative;
+    border: black 2.0px solid;
+    border-radius: 0.5em;
+    top: 3em;
+    left: 1em;
+    width: 25em;
+    float: left;
+}
+
+
+.pf-3 {
+    margin-right: 16em;
+    margin-left: 2em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;   
+}
+
+.logozone{
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 23.5em;
+}
+
+.color3{
+    background: linear-gradient(to right, #00FF80, #F7BE81);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.Smash3{
+    background-image: url(/img/PAC-MAN.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 1% 35%;
+    overflow: auto;
+}
+
+.Imagenzone{
+    position: relative;
+    border: black 2.0px solid;
+    border-radius: 0.5em;
+    top: 1.6em;
+    right: 1.2em;
+    width: 25em;
+    float: right;
+}
+
+.pf-4 {
+    margin-right: 1em;
+    margin-left: 16em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;   
+}
+
+.color4{
+    background: linear-gradient(to right, #FFBF00, #F7D358);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.Smash4{
+    background-image: url(/img/01.\ Mario\ 1.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 100% 50%;
+    overflow: auto;
+}
+
+.logoknockback{ 
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 23.5em;
+}
+
+.Imagenknockback{
+    position: relative;
+    border: black 2.0px solid;
+    border-radius: 0.5em;
+    top: 3em;
+    left: 1em;
+    width: 25em;
+    float: left;
+}
+
+.pf-5 {
+    margin-right: 16em;
+    margin-left: 2em;
+    font-size: 29px;
+    color: black;
+    text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;    
+}
+
+.color5{
+    background: linear-gradient(to right, #01A9DB, #A9D0F5);  
+    border: black 2.0px solid;
+    overflow: auto;
+    margin: 1.5em;
+    border-radius: .5em;
+}
+
+.Smash5{
+    background-image: url(/img/06.\ Kirby\ 1.png);
+	background-repeat: no-repeat;
+	background-size: 25em;
+	background-position: 5% 50%;
+    overflow: auto;
+}
+
+.logodirectional{ 
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 23.5em;
+}
+
+.Imagendirectional{
+    position: relative;
+    border: black 2.0px solid;
+    border-radius: 0.5em;
+    top: 3.5em;
+    right: 1.2em;
+    width: 25em;
+    float: right;
+}
+
+

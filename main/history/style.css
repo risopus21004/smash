@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202020;
+}
+
+
+/*barra de navegacion*/
+
+.boton-regresar{
+	cursor: url(img/pointer.png), auto;
+	position: absolute;
+	float: left;
+	object-fit: cover;
+	transition: 0.4s;
+}
+
+.boton-regresar:hover{
+	transform: scale(1);
+}
+
+.boton-regresar img{
+	cursor: url(img/pointer.png), auto;
+	position: absolute;
+	top: 0.5em;
+	left: 0;
+	transition: opacity 0.4s ease-in-out;
+	width: 13.6em;
+}
+
+.boton-regresar img.top:hover{
+	opacity: 0;
+}
+
+.barra{
+	width: 65em;
+}
+
+header{
+	display: flex;
+}
+
+
+
+.contain{
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f2f2f2;
+}
+
+.content{
+    padding: 30px;
+}
+
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+}
+
+.content p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.content h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}

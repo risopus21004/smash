@@ -1,0 +1,471 @@
+/* Fondo */
+
+html{
+  
+  cursor: url(img/default.png),auto;
+}
+
+body{
+  background: linear-gradient(to top, rgba(46, 0, 105, 0.5) 20%, rgba(0, 0, 0, 0.5) 100%), url("img/NRRZ9lw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 105%;
+}
+
+/* Logo de Smash */
+
+.Logo img{
+  position:absolute;
+  left: 40.5em;
+  width: 25.3em;
+}
+
+/* Tamaño, Ubicacion y Animacion (No toques nada si no la quieres cagar) */
+
+.Que-es-Smash {
+  position: relative;
+  margin: 50px 20px;
+  float: left;
+  object-fit: cover;
+  transition: 0.4s;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Que-es-Smash{
+  transform: scale(0.992);
+}
+
+.Que-es-Smash img {
+  position: absolute;
+
+  transition: opacity 0.4s ease-in-out;
+  width: 35em;
+}
+
+.Que-es-Smash img.top:hover {
+  opacity: 0;
+  
+  cursor: url(img/pointer.png),auto;
+}
+
+.Boton {
+  position: relative;
+  margin: 50px 20px;
+  float: left;
+  object-fit: cover;
+  transition: 0.4s;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Boton img.top:hover {
+  opacity: 0;
+}
+
+.Personajes img {
+ position: absolute;
+  left: 0em;
+  top: 24.2em;
+  transition: opacity 0.4s ease-in-out;
+  width: 30.6em;
+  cursor: url(img/pointer.png),auto;
+}
+  
+.Personajes:hover{
+  transform: scale(0.992);
+}
+  
+.Complemento {
+  position: relative;
+  float: left;
+  object-fit: cover;
+  transition: 0.4s;
+  
+  }
+
+.Complemento img {
+  position: absolute;
+  left: 17em;
+  top: 16.6em;
+  
+  }
+
+.Modalidades img {
+ position: absolute;
+  left: 21em;
+  top: 25em;
+  transition: opacity 0.4s ease-in-out;
+  width: 42em;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Modalidades:hover{
+  transform: scale(0.992);
+}
+ 
+.Desarrollo img {
+  position: absolute;
+  left: 13em;
+  top: 13.5em;
+  transition: opacity 0.4s ease-in-out;
+  width: 20em;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Desarrollo:hover{
+  transform: scale(0.99);
+}
+
+.Historia img {
+  position: absolute;
+  left: 26.5em;
+  top: 13.5em;
+  transition: opacity 0.4s ease-in-out;
+  width: 20em;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Historia:hover{
+  transform: scale(0.99);
+}
+  
+.Mecanicas img {
+  position: absolute;
+  left: 41em;
+  top: 13.5em;
+  transition: opacity 0.4s ease-in-out;
+  width: 22em;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Mecanicas:hover{
+  transform: scale(0.99);
+}
+    
+.Tecnisismos img {
+  position: absolute;
+  left: 62em;
+  top: 15em;
+  transition: opacity 0.4s ease-in-out;
+  width: 6.5em;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Tecnisismos:hover{
+  transform: scale(0.99);
+}
+
+.Cofre img {
+  position: absolute;
+  left: 54em;
+  top: 2em;
+  transition: opacity 0.4s ease-in-out;
+  cursor: url(img/Llave.png),auto;
+  width: 12em;
+}
+
+.Cofre:hover{
+  transform: scale(0.995);
+}
+      
+.Escenarios img {
+  position: absolute;
+  left: 51.8em;
+  top: 28.5em;
+  transition: opacity 0.4s ease-in-out;
+  width: 11em;
+  cursor: url(img/pointer.png),auto;
+}
+
+.Escenarios:hover{
+  transform: scale(1.01);
+}
+            
+
+/*Aca empieza las resoluciones*/
+
+/*Resolucion 1366x768 (Laptop)*/
+    
+@media (max-width:1366px) {
+  body{
+    background-color: #212121;
+    background-size: 105%;
+  }
+
+  .Logo img{
+    position:absolute;
+    left: 41em;
+    width: 21em;
+  }
+
+  .Que-es-Smash img {
+    position: absolute;
+    transition: opacity 0.4s ease-in-out;
+    width: 29.5em;
+  }
+
+  .Personajes img {
+   position: absolute;
+    left: 0em;
+    top: 19.8em;
+    transition: opacity 0.4s ease-in-out;
+    width: 24em;
+    cursor: url(img/pointer.png),auto;
+  }
+
+  .Complemento img {
+    position: absolute;
+    left: 13em;
+    top: 13.5em;
+    width:980px; 
+    height:180px;
+  }
+ 
+  .Modalidades img {
+    position: absolute;
+    left: 18em;
+    top: 21em;
+    transition: opacity 0.4s ease-in-out;
+    width: 32em;
+  }
+
+  .Desarrollo img {
+    position: absolute;
+    left: 11em;
+    top: 10.5em;
+    transition: opacity 0.4s ease-in-out;
+    width: 19em;
+  }
+
+  .Historia img {
+    position: absolute;
+    left: 24em;
+    top: 10.5em;
+    transition: opacity 0.4s ease-in-out;
+    width: 19em;
+  }
+
+  .Mecanicas img {
+    position: absolute;
+    left: 38em;
+    top: 10.5em;
+    transition: opacity 0.4s ease-in-out;
+    width: 21em;
+  }
+  
+  .Tecnisismos img {
+    position: absolute;
+    left: 58em;
+    top: 11.5em;
+    transition: opacity 0.4s ease-in-out;
+    width: 6.3em;
+  }
+
+  .Cofre img {
+    position: absolute;
+    left: 53em;
+    top: 0em;
+    transition: opacity 0.4s ease-in-out;
+    width: 9.8em;
+  }
+
+  .Escenarios img {
+    position: absolute;
+    left: 42.5em;
+    top: 24em;
+    transition: opacity 0.4s ease-in-out;
+    width: 11.5em;
+    cursor: url(img/pointer.png),auto;
+  }
+       
+}
+
+/*Resolucion 1280x720 (Laptop/PC)*/
+
+@media (max-width:1280px){
+  body{
+    background-color: #212121;
+    background-size: 102%;
+  }
+
+  .Logo img{
+    position:absolute;
+    left: 37em;
+    width: 18.5em;
+  }
+
+  .Que-es-Smash img {
+    position: absolute;
+    transition: opacity 0.4s ease-in-out;
+    width: 26em;
+  }
+
+  .Personajes img {
+   position: absolute;
+    left: 0em;
+    top: 18em;
+    transition: opacity 0.4s ease-in-out;
+    width: 22em;
+  }
+
+  .Complemento img {
+    position: absolute;
+    left: 12em;
+    top: 12em;
+    width:940px; 
+    height:155px;
+  }
+ 
+  .Modalidades img {
+   position: absolute;
+    left: 15.5em;
+    top: 18.5em;
+    transition: opacity 0.4s ease-in-out;
+    width: 30em;
+  }
+
+  .Desarrollo img {
+    position: absolute;
+    left: 9em;
+    top: 9em;
+    transition: opacity 0.4s ease-in-out;
+    width: 17em;
+  }
+
+  .Historia img {
+    position: absolute;
+    left: 21em;
+    top: 9em;
+    transition: opacity 0.4s ease-in-out;
+    width: 17em;
+    }
+
+  .Mecanicas img {
+    position: absolute;
+    left: 33.5em;
+    top: 9em;
+    transition: opacity 0.4s ease-in-out;
+    width: 18.8em;
+  }
+  
+  .Tecnisismos img {
+    position: absolute;
+    left: 52em;
+    top: 10em;
+    transition: opacity 0.4s ease-in-out;
+    width: 6.3em;
+  }
+
+  .Cofre img {
+    position: absolute;
+    left: 48.5em;
+    top: 0.5em;
+    transition: opacity 0.4s ease-in-out;
+    width: 8.5em;
+  }
+
+  .Escenarios img {
+    position: absolute;
+    left: 37.7em;
+    top: 20.8em;
+    transition: opacity 0.4s ease-in-out;
+    width: 11em;
+  }
+          
+}
+
+/*Resolucion 1024x600 (Canaima)*/
+
+@media (max-width:1024px){
+  body{
+    background-color: #212121;
+    background-size: 102%;
+  }
+
+  .Logo img{
+  position:absolute;
+  left: 28em;
+  width: 18em;
+  }
+
+  .Que-es-Smash img {
+  position: absolute;
+  transition: opacity 0.4s ease-in-out;
+  width: 22em;
+  }
+
+  .Personajes img {
+  position: absolute;
+  left: 0em;
+  top: 17.4em;
+  transition: opacity 0.4s ease-in-out;
+  width: 20em;
+  }
+
+  .Complemento img {
+  position: absolute;
+  left: 11em;
+  top: 12em;
+  width:700px; 
+  height:125px;
+  }
+ 
+  .Modalidades img {
+  position: absolute;
+  left: 13.5em;
+  top: 17.9em;
+  transition: opacity 0.4s ease-in-out;
+  width: 27.3em;
+  }
+
+  .Desarrollo img {
+  position: absolute;
+  left: 5em;
+  top: 8.7em;
+  transition: opacity 0.4s ease-in-out;
+  width: 14.5em;
+  }
+
+  .Historia img {
+  position: absolute;
+  left: 14.8em;
+  top: 8.9em;
+  transition: opacity 0.4s ease-in-out;
+  width: 13.8em;
+  }
+
+  .Mecanicas img {
+  position: absolute;
+  left: 24.7em;
+  top: 8.9em;
+  transition: opacity 0.4s ease-in-out;
+  width: 15em;
+  }
+  
+  .Tecnisismos img {
+    position: absolute;
+    left: 40em;
+    top: 10em;
+    transition: opacity 0.4s ease-in-out;
+    width: 4.8em;
+  }
+
+  .Cofre img {
+    position: absolute;
+    left: 32.8em;
+    top:0em;
+    transition: opacity 0.4s ease-in-out;
+    width: 9em;
+  }
+
+  .Escenarios img {
+  position: absolute;
+  left: 29.5em;
+  top: 18.5em;
+  transition: opacity 0.4s ease-in-out;
+  width: 8em;
+  }
+  
+}
+

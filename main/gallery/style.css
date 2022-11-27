@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+	;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	cursor: url(img/default.png), auto;
+}
+
+body {
+	
+	background-color: rgba(20, 20, 20);
+}
+
+/*barra de navegacion*/
+
+.boton-regresar{
+	cursor: url(img/pointer.png), auto;
+	position: absolute;
+	float: left;
+	object-fit: cover;
+	transition: 0.4s;
+}
+
+.boton-regresar:hover{
+	transform: scale(1);
+}
+
+.boton-regresar img{
+	cursor: url(img/pointer.png), auto;
+	position: absolute;
+	top: 0.5em;
+	left: 0;
+	transition: opacity 0.4s ease-in-out;
+	width: 13.6em;
+}
+
+.boton-regresar img.top:hover{
+	opacity: 0;
+}
+
+.barra{
+	width: 65em;
+}
+
+header{
+	display: flex;
+}
+
+h1 {
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 15px;
+	margin: 80px;
+}
+
+
+hr {
+	background-color: white;
+	margin: 30px;
+	border: 2px solid white;
+}
+
+/*distribucion de la galeria*/
+
+#Galeria {
+	margin-top: 50px;
+	cursor: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*fondo con cada personaje*/
+.card {
+	background-image: var(--i);
+	width: 400px;
+	height: 400px;
+	margin-right: 15px;
+	margin-left: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*para los nombres de los luchadores*/
+
+.name {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: aliceblue;
+	border-radius: 8px;
+	opacity: 0;
+	font-size: 20px;
+	transition: 0.3s;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover .name {
+	border-radius: 8px;
+	opacity: 1;
+}
+
+/*desplazamiento*/
+
+.next {
+	display: flex;
+	margin: 50px;
+	justify-content: center;
+}
+
+.circle {
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	margin: 30px;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+	border-left: solid 2px white;
+	border-right: solid 2px white;
+}
+
+.btn {
+	text-decoration: none;
+	color: white;
+	background-image: linear-gradient(to right, rgb(214, 5, 5) 0%, rgb(207, 73, 10) 100%);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border-radius: 100px;
+}
+
+.next a {
+	cursor: url(img/pointer.png), auto;
+	text-decoration: none;
+}
+
+.btn p {
+	cursor: url(img/pointer.png), auto;
+	font-size: 25px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.btn:hover {
+	background-image: linear-gradient(to right, rgba(214, 5, 5, 0.5) 0%, rgba(207, 73, 10, 0.5) 100%);
+	border: solid 1px white;
+}
